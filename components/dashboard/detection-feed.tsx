@@ -284,8 +284,11 @@ export default function DetectionFeed({ className }: DetectionFeedProps) {
     <Card className={cn("overflow-hidden", className)}>
       <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
         <div className="space-y-1">
-          <CardTitle>Video Upload & Detection</CardTitle>
-          <CardDescription>Upload MP4 videos for object detection with YOLOv8</CardDescription>
+          <CardTitle>🛡️ VisionGuard: AI-Powered Safety Detection</CardTitle>
+          <CardDescription>🚀 Upload an MP4 video and let YOLOv8 do the magic! Our AI-powered system detects:
+✅ 🦓 Zebra Crossings – Safer pedestrian navigation!
+✅ 🚧 Traffic Symbols – Understand road signs in real time!
+✅ 🗑️ Garbage Bins & Overflow – Monitor urban cleanliness!</CardDescription>
         </div>
         {uploadedVideo && (
           <div className="flex space-x-2">
